@@ -1,4 +1,4 @@
 # inspektorat-strapi
 
-User Website = React
-Admin CMS Website = Strapi
+- User Website = React
+- Admin CMS Website = Strapi
