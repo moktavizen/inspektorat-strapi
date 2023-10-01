@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tautans",
+  "info": {
+    "singularName": "tautan",
+    "pluralName": "tautans",
+    "displayName": "Tautan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "linkName": {
+      "type": "string",
+      "required": true
+    },
+    "linkValue": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,2 +1,4 @@
-# inspektorat-gresik-strapi
 # inspektorat-strapi
+
+User Website = React
+Admin CMS Website = Strapi

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffs",
+  "info": {
+    "singularName": "staff",
+    "pluralName": "staffs",
+    "displayName": "Daftar Pegawai",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "nip": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "jabatan": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

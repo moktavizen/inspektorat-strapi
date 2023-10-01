@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Kontak",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alamat": {
+      "type": "string"
+    },
+    "telepon": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

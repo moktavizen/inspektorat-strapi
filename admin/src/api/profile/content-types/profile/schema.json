@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profilPimpinan": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "strukturOrganisasi": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visiMisi": {
+      "type": "richtext",
+      "required": true
+    },
+    "tugasFungsi": {
+      "type": "richtext"
+    },
+    "penjelasanStrukturOrganisasi": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
